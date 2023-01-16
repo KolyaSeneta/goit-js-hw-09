@@ -4,7 +4,7 @@ import Notiflix from 'notiflix';
 
 const text = document.querySelector('#datetime-picker');
 const btnStart = document.querySelector('button[data-start]');
-const timer = document.querySelector('.timer');
+const timerWithHtml = document.querySelector('.timer');
 const seconds = document.querySelector('span[data-seconds]');
 const minutes = document.querySelector('span[data-minutes]');
 const hours = document.querySelector('span[data-hours]');
